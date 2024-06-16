@@ -1,0 +1,41 @@
+@font-face {
+    font-family: bold;
+    src: url(../fonts/Poppins-BoldItalic.ttf);
+}
+@font-face {
+    font-family: medium;
+    src: url(../fonts/Poppins-MediumItalic.ttf);
+}
+@font-face {
+    font-family: "regular";
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: "semi-bold";
+    src: url(../fonts/Poppins-SemiBoldItalic.ttf);
+}
+:root{
+    --primary-color: #4a1d1f;
+    --secondary-color: #272727;
+    --tertiary-color: #f9caca;
+    --natural-color: #ffffff;
+
+    --font-bold: 'bold';
+    --font-semibold: 'semibold';
+    --font-medium: 'medium';
+    --font-regular: 'regular';
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    padding: 1em;
+}
+nav h2{
+    font-size: 2em;
+    color: var(--primary-color);
+    letter-spacing: 1px;
+}
