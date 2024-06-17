@@ -25,3 +25,58 @@
     --font-medium: 'medium';
     --font-regular: 'regular';
 }
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: purple;
+}
+nav{
+    margin: 5px;
+    padding: 3px;
+    display: flex;
+    gap: 15%;
+    align-items: center;
+}
+nav .baricon{
+    display: flex;
+    gap: 30px;
+}
+nav h1{
+    color: var(--primary-color);
+    font-family:var(--font-regular);
+    font-size: calc(5*6px);
+}
+nav .links{
+    display: flex;
+    gap: 20px;
+    color: var(--secondary-color);
+    font-size: 20px;
+}
+nav .links .page{
+    color: var(--primary-color);
+    text-decoration: none;
+    font-family: var(--font-medium);
+}
+.baricon input{
+    font-size: 20px;
+    float: right;
+    height: 40px;
+    width: 90%;
+    padding-left: 10px;
+}
+.bi{
+    background-color: var(--primary-color);
+    line-height: 40px;
+    width: 10%;
+    color: var(--natural-color);
+    text-align: center;
+    width: 10%;
+}
+nav .icon{
+    font-size: 25px;
+    display: flex;
+    gap: 10%;
+}
