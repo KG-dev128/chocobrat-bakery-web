@@ -46,7 +46,7 @@ nav .links{
     font-size: 1em;
     font-family: var(--font-bold);
     display: flex;
-    gap: 20px;
+    gap: 30px;
     color: var(--secondary-color);
 }
 nav .links .txd{
